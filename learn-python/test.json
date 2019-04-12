@@ -1,0 +1,177 @@
+{
+	"projectParam": {
+		"distributInfo": {
+			"switchStation35kVNumber": 3,
+			"switchStation10kVNumber": 2
+		},
+		"priceInfo": {
+			"steelBarUnitPrice": 5800.0,
+			"towerUnitPrice": 9000.0,
+			"concreteCushionUnitPrice": 522.5,
+			"anchorUnitPrice": 12000.0,
+			"concreteUnitPrice": 646.9
+		},
+		"financingInfo": {
+			"loanInterestRateWithTax": 0.049,
+			"financing": "LONG_TERM_BANK_BORROWING",
+			"longtermFinancingGraceYears": 1,
+			"graceInterestRateWithTax": 0.049,
+			"interestTaxDeduction": false,
+			"returnLoanMethod": "AVERAGE_CAPITAL",
+			"longtermFinancingYears": 15
+		},
+		"projectInfo": {
+			"province": "冀北",
+			"irrType": "CAPITAL_IRR",
+			"name": "中广核商毅二期50MW风电项目",
+			"propertiesType": "TYPICAL",
+			"distribut": true,
+			"irrValue": 0.1,
+			"capacity": 50.0
+		},
+		"operationInfo": {
+			"warrantyPeriod": 5,
+			"warrantyFee": 52.5,
+			"enable": true,
+			"outWarrantyFee": 136.5
+		},
+		"engineeringInfo": {
+			"apportioningInvestment": 0.0,
+			"periodMonth": 0,
+			"terrain": "PLAIN",
+			"newBoosterStation": true
+		},
+		"marketInfo": {
+			"restrictYearNumber": 20,
+			"tradingPrice": 0.0,
+			"tradingRatio": 0.0,
+			"feedinTariffs": 0.45,
+			"restrictLimitElecRatio": 0.07,
+			"tradingYearNumber": 20
+		},
+		"feasibleInfo": {
+			"baseConcretePrice": 733.0,
+			"staticTotalInvestment": 24000.0,
+			"totalFanPrice": 16100.0,
+			"totalConstructionInstallationPlatformPrice": 66.0,
+			"totalTowerPrice": 4600.0,
+			"baseSteelBarPrice": 520.0,
+			"totalInnerRoadPrice": 430.0,
+			"totalCollectorLinePrice": 560.0,
+			"totalTurbineAndTowerInstallationPrice": 47.0,
+			"totalPackageSubstationPrice": 470.0,
+			"turbineNumber": 23,
+			"enable": true,
+			"baseCushionConcretePrice": 35.0,
+			"totalBasePrice": 1500.0
+		}
+	},
+	"planParam": {
+		"planList": [{
+			"turbinePrice": 3500.0,
+			"number": 22,
+			"turbineParams": {
+				"concreteAmount": 517.0,
+				"otherCost": 0.0,
+				"steelBarAmount": 40.0,
+				"concreteCushionAmount": 30.0
+			},
+			"model": "GW121/2000-120H",
+			"towerParams": {
+				"installCost": 43.0,
+				"mixingTowerCost": 79.04,
+				"anchorWeight": 0.0,
+				"steelTowerWeight": 192.95834
+			},
+			"turbineHubHeight": 0
+		}],
+		"internetHour": 2435.0
+	},
+	"projectExtra": {
+		"financingExtraInfo": {
+			"payInterestTimes": 4,
+			"debtFinancingRate": 0.0435,
+			"capitalCurrentInvestmentRatio": 0.3,
+			"payPrincipalTimes": 4,
+			"capitalLongInvestmentRatio": 0.2,
+			"workingCapitalPrice": 30.0
+		},
+		"projectExtraInfo": {
+			"equityCapitalCost": 0.1,
+			"approvalDate": "2018-01-01",
+			"wacc": 0.08,
+			"operationPeriodMonths": 240,
+			"startDate": "2019-01-01"
+		},
+		"operationExtraInfo": {
+			"insuranceRate": 0.0025,
+			"staffNumber": 9,
+			"wagePlusRate": 0.6,
+			"inflationMetirail": true,
+			"billing": "PROPORTION",
+			"metierialPrice": [15.0, 15.0, 15.0, 0.0],
+			"inflationRepairFee": false,
+			"inflationOtherFee": true,
+			"repairFeeRate": [0.005, 0.005, 0.005, 0.005, 0.005, 0.01, 0.01, 0.01, 0.01, 0.01, 0.015, 0.015, 0.015, 0.015, 0.015, 0.02, 0.02, 0.02, 0.02, 0.02],
+			"avgWage": 8.0,
+			"inflationLabor": true,
+			"rentSeaUseFee": 0.0,
+			"inflationBackUpMoney": true,
+			"inflationRate": 0.03,
+			"otherFeePrice": 30.0,
+			"inflationInsurance": false
+		},
+		"marketExtraInfo": {
+			"educationSurtax": 0.03,
+			"localSubsidyYearNumber": 0,
+			"constructionTax": 0.05,
+			"lineLossRatio": 0.0,
+			"tradingPrice": 0.0,
+			"incomeSubsidies": [24, 12, 3, 3],
+			"incomeBenchmark": 1,
+			"incomeLineSubsidy": [24, 12, 3, 3],
+			"incomeLocalSubsidy": 3,
+			"tradingRatio": 0.0,
+			"depreciationAge": 20,
+			"vatTax": 0.16,
+			"tradingYearNumber": 0,
+			"localEducationSurtax": 0.02,
+			"localSubsidy": 0.0,
+			"lineSubsidy": 0.0,
+			"eHour": 2490.0,
+			"windProductRefundTax": 0.5,
+			"equipLossRatio": 0.0,
+			"lineSubsidyYearNumber": 20,
+			"remainValueRatio": 0.05
+		},
+		"priceExtraInfo": {
+			"equipmentInAndOutFee": 50.0,
+			"enviromentProtectFee": 110.0,
+			"equipStorageRate": 0.006,
+			"innerRoadPrice": 35.0,
+			"landAcquisitionCompensationFee": 2.5,
+			"collectorLineUnitPrice": 40.0,
+			"windTurbineFee": 3.0,
+			"powerFee": 40.0,
+			"soilAndWaterConservationFee": 220.0,
+			"entryRoadPrice": 100.0,
+			"waterFee": 20.0,
+			"roadFee": 0.0,
+			"reconstruRoadPrice": 35.0,
+			"basicReserveFundsRatio": 0.01,
+			"surveyAndDesignFee": 607.2,
+			"landAcquisitionFee": 10.0,
+			"otherFeeAdjustRatio": 1.0
+		},
+		"engineeringExtraInfo": {
+			"innerRoadWidth": 6.0,
+			"combinedRunningCostRate": 0.004,
+			"boosterArea": 10000.0,
+			"projectInsuranceRate": 0.004,
+			"sparePartsFeeRate": 0.003,
+			"specialReportPreparationRate": 0.0,
+			"projectPreConstructionRate": 0.01,
+			"entryRoadLength": 0.5
+		}
+	}
+}

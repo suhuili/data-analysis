@@ -6,6 +6,7 @@ import scipy.stats as stats
 import pylab
 import pandas as pd
 import csv
+
 #读取数据
 # target_url = ("https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data")
 target_url = ("D:/Personal/Desktop/fatigue2.0_2y.csv")

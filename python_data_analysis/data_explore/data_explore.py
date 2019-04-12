@@ -274,7 +274,6 @@ plt.show()
 '''数据偏度和峰度度量'''
 # print("Skewness: %f" % zhengqi_train['target'].skew())
 # print("Kurtosis: %f" % zhengqi_train['target'].kurt())
-
 # zhengqi_train.to_excel(outputfile)
 
 
